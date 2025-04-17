@@ -1,5 +1,5 @@
 [project]
-name = "growth-mindset-challenge"
+name = "streamlit"
 version = "0.1.0"
 description = "Streamlit app for CSV/Excel data cleaning"
 requires-python = ">=3.10,<3.13"
