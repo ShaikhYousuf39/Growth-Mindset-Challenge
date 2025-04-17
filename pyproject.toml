@@ -1,0 +1,15 @@
+[project]
+name = "growth-mindset-challenge"
+version = "0.1.0"
+description = "A Streamlit web app for Growth Mindset Challenge"
+authors = [{ name = "Yousuf" }]
+dependencies = [
+    "streamlit",
+    "pandas",
+    "openpyxl",
+    "xlsxwriter"
+]
+
+[build-system]
+requires = ["uv"]
+build-backend = "uv.build"
