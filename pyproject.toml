@@ -1,15 +1,12 @@
 [project]
 name = "growth-mindset-challenge"
 version = "0.1.0"
-description = "A Streamlit web app for Growth Mindset Challenge"
-authors = [{ name = "Yousuf" }]
+description = "Streamlit app for CSV/Excel data cleaning"
+requires-python = ">=3.10,<3.13"
+
 dependencies = [
     "streamlit",
     "pandas",
     "openpyxl",
     "xlsxwriter"
 ]
-
-[build-system]
-requires = ["uv"]
-build-backend = "uv.build"
